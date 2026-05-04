@@ -5,7 +5,7 @@
 [![Shiny](https://img.shields.io/badge/Framework-Shiny-13A5F5?style=flat)](https://shiny.posit.co/)
 [![Leaflet](https://img.shields.io/badge/Maps-Leaflet-199900?style=flat)](https://rstudio.github.io/leaflet/)
 [![TSP](https://img.shields.io/badge/Algorithm-TSP-FF6F00?style=flat)](https://cran.r-project.org/package=TSP)
-[![License: GPL3](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/GPL3)
+[![License: GPL3](https://img.shields.io/badge/License-GPL3-yellow.svg)](https://opensource.org/licenses/GPL3)
 
 ---
 
