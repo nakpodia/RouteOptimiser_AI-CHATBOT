@@ -246,8 +246,8 @@ shiny::runApp("app.R")
 ## 👤 Author
 
 **Clinton Nakpodia**
-📧 officialnakpodiaclinton@gmail.com
-🔗 [GitHub](https://github.com/YourUsername)
+📧 Nakpodiaclinton@gmail.com
+🔗 [GitHub](https://github.com/nakpodia)
 💼 [LinkedIn](https://linkedin.com/in/YourProfile)
 
 ---
