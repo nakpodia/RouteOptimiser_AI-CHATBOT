@@ -54,19 +54,9 @@ The chatbot makes the technical complexity of TSP accessible — users can ask p
 
 ## 🎬 Demo
 
-> **Add your screenshots here after running the app**
-
 | Map View | Chatbot Interaction |
 |----------|---------------------|
 | ![Map View](screenshots/map_view.png) | ![Chatbot](screenshots/chatbot_view.png) |
-
-> 📸 *Take screenshots of the interactive map and chatbot panel, save them in a `screenshots/` folder, then update the paths above.*
-
-**Suggested screenshots to take:**
-- Full app with a 15-postcode route rendered on the map
-- Chatbot explaining the Two-Opt algorithm
-- Stats panel showing distance and method
-- A comparison of routes using different methods
 
 ---
 
