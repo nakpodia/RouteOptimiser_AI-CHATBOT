@@ -1,5 +1,8 @@
-# 🗺️ UK Route Optimiser — Travelling Salesman Problem Chatbot
+# 🗺️ UK Route Optimiser + AI ChatBot 
 ### *R + Shiny | Combinatorial Optimisation | Interactive Mapping | AI Chatbot*
+A practical route optimisation tool that helps Users plan the most efficient route across multiple UK postcodes. It uses smart algorithms, live mapping, and a guided chatbot interface to support faster decision‑making. 
+
+Designed to simulate real world logistics challenges, reducing route distance, time, and operational cost.
 
 [![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![Shiny](https://img.shields.io/badge/Framework-Shiny-13A5F5?style=flat)](https://shiny.posit.co/)
