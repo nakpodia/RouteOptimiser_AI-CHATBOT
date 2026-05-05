@@ -1,6 +1,6 @@
 # 🗺️ UK Route Optimiser + AI ChatBot 
 ### *R + Shiny | Combinatorial Optimisation | Interactive Mapping | AI Chatbot*
-A practical route optimisation tool that helps Users plan the most efficient route across multiple UK postcodes. It uses smart algorithms, live mapping, and a guided chatbot interface to support faster decision‑making. 
+A full stack R Shiny application that solves a real logistics optimisation problem using TSP heuristics, geospatial mapping, and an integrated AI-style chatbot. Built to simulate real delivery‑route planning across the East Midlands, it demonstrates algorithmic optimisation, UI engineering, and conversational UX design in one cohesive tool.
 
 Designed to simulate real world logistics challenges, reducing route distance, time, and operational cost.
 
@@ -16,6 +16,7 @@ Designed to simulate real world logistics challenges, reducing route distance, t
 - [Problem Statement](#-problem-statement)
 - [Solution](#-solution)
 - [Demo](#-demo)
+- [Results](#-results)
 - [Tech Stack](#-tech-stack)
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
@@ -43,9 +44,11 @@ The **Travelling Salesman Problem (TSP)** is the mathematical formalisation of t
 
 ## 💡 Solution
 
-This app is an **interactive R Shiny chatbot** that:
+This application provides a fully interactive R Shiny route‑optimisation tool designed to replicate real‑world delivery planning across the East Midlands. It combines geospatial analytics, heuristic optimisation, and conversational guidance into a single, intuitive interface.
 
-1. Randomly samples delivery postcodes from 100 real East Midlands locations
+The app works by:
+
+1. Sampling real UK postcodes from a curated dataset of 100 East Midlands locations
 2. Computes geographic distances using the **Haversine formula** (accounts for Earth's curvature)
 3. Applies one of **7 TSP heuristic algorithms** to find an optimised tour
 4. Renders the route on a **live Leaflet map** with total distance in km
@@ -60,6 +63,16 @@ The chatbot makes the technical complexity of TSP accessible — users can ask p
 | Map View | Chatbot Interaction |
 |----------|---------------------|
 | ![Map View](screenshots/map_view.png) | ![Chatbot](screenshots/chatbot_view.png) |
+
+---
+
+## 📈 Results 
+
+- Computation time under 1 second for up to 100 postcodes on a standard laptop
+- Reduced Route efficiency compared to Routes not optimised
+- Nearest Neighbour remained the fastest algorithm, ideal for large N
+- Two‑Opt and Repetitive Nearest Neighbour produced the shortest tours on average
+- The chatbot correctly handled 12 categories of user intent with high accuracy and delivered fully context‑aware responses based on the current route, algorithm, and postcode selection.
 
 ---
 
@@ -241,7 +254,7 @@ shiny::runApp("app.R")
 **Clinton Nakpodia**
 📧 Nakpodiaclinton@gmail.com
 🔗 [GitHub](https://github.com/nakpodia)
-💼 [LinkedIn](https://linkedin.com/in/YourProfile)
+💼 [LinkedIn](https://linkedin.com/cnakpodia)
 
 ---
 
