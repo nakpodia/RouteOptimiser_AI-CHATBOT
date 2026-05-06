@@ -4,6 +4,8 @@ A full stack R Shiny application that solves a real logistics optimisation probl
 
 Designed to simulate real world logistics challenges, reducing route distance, time, and operational cost.
 
+#### 🛰️ *Live Demo* - https://clintellect.shinyapps.io/chatbot_UKTSP/
+
 [![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![Shiny](https://img.shields.io/badge/Framework-Shiny-13A5F5?style=flat)](https://shiny.posit.co/)
 [![Leaflet](https://img.shields.io/badge/Maps-Leaflet-199900?style=flat)](https://rstudio.github.io/leaflet/)
