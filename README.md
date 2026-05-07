@@ -117,7 +117,7 @@ The chatbot makes the technical complexity of TSP accessible — users can ask p
 ---
 
 ## ⚙️ How It Works
-
+#### see Detailed code explanation 👉 Code_Explanation.md
 ```
 User selects N postcodes and TSP method
          ↓
