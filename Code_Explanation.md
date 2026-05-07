@@ -1,4 +1,12 @@
-# Introduction to the sales man problem
+# UK ROUTE OPTIMISER + AI CHATBOT CODE 
+
+![Status: Unfinished](https://img.shields.io/badge/Status-Unfinished-orange)
+
+#### This document gives a brief, easy‑to‑follow overview of how the UK Route Optimiser works. It explains the key code components behind the Travelling Salesman Problem logic, postcode processing, route calculation, and the integrated chatbot. The goal is to help readers quickly understand the structure, purpose, and flow of the application.
+
+----
+
+### Introduction to the sales man problem (TSP)
 
 They are different approach to solving thee TSP, the whole goal is simply looking for the best possible shortest route to go around different cities and return to the first initial city.
 
@@ -27,6 +35,8 @@ the data I'm using contains three variables, Post code, longitude and Lattitude
 1. Post Codes because the salesman problem has to do with optimizing the nearest distance of location, it cannot use just the postcode to ascertain the distance from other relative postcodes. Hence why it is important to get the exact locations using the Longitude nd latitude
 2.  Longitude: this represents how far East/west a location is
 3.  Latitude: this represents how far north south a location is.
+
+--
 
 ## The haversine formular
 
@@ -83,6 +93,8 @@ the above code in summary creates a distance matrix; basically creating and link
 
 note that this is an empty matrix and has no values yet. it just tells R that "create a 2xn matrix (long and lat) and assign it a name. i will give you the values later"
 
+
+--
 # SOLVING THE TSP
 
 This TSP problem in makinf thos app will be solved by the TSP library. the TSP library can autoomatically solve using any of the methods as far as a distance matric amongst others can be provided. IO am yet to braoden my knowledge on the capabilities of the TSP package.
